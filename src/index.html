@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Hello World</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tailwind.css">
     <style>
         #menu-toggle:checked + #menu {
             display: block;
@@ -54,10 +54,17 @@
 </header>
 
 <main class="lg:px-16 px-6">
-    <section class="panel" data-color="green-500">
+    <section class="panel py-10" data-color="green-500">
         <div class="lg:flex flex-wrap items-center justify-center">
             <div class="mr-6">
-                <p>My name is Guillaume</p>
+                <p>My name is Guillaume
+                <div class="slidingVertical relative -top-10">
+                    <span class="">Hi!</span>
+                    <span class="">Hola</span>
+                    <span class="">Buna!</span>
+                    <span class="">Bonjour</span>
+                </div>
+                </p>
             </div>
             <div>
                 I'm an independent
